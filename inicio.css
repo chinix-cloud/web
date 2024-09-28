@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(images/FONDO.gif);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #ffe0b29e; /* Color naranja claro */
+    padding: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 500px;
+    width: 100%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #bf360c; /* Color marrón oscuro */
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #e65100; /* Color naranja oscuro */
+}
+
+input, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ffa726; /* Color naranja medio */
+    border-radius: 5px;
+    background-color: #fffde7; /* Color amarillo muy claro */
+}
+
+input:focus, textarea:focus {
+    border-color: #fb8c00; /* Color naranja intenso */
+    outline: none;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #e65100; /* Color naranja oscuro */
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #bf360c; /* Color marrón oscuro */
+}

@@ -1,0 +1,173 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    width: 80%;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.fixed-header{
+    align-items: center;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #d5d5d5;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.logo {
+    height: 50px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    width: 800px;
+    margin-left: 100px;
+}
+
+.header-buttons {
+    display: flex;
+    gap: 10px;
+}
+.header-buttons{
+    margin-left: 1200px;
+    margin-top: -30px;
+    text-decoration: none;
+}
+ 
+.btn {
+    background-color: #fff;
+    color: #ff8c00;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+ 
+.btn:hover {
+    background-color: #ffda85;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffa500;
+    padding: 10px;
+    position: relative;
+}
+
+nav img.menu-icon {
+    cursor: pointer;
+    margin-right: auto;
+    height: 30px;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 5px; /* Padding para todos los enlaces */
+}
+
+nav a:nth-of-type(2) {
+    background-color: #854b00; /* Cambia este color al que prefieras */
+    padding: 10px 20px; /* Aumentar tamaño del fondo */
+}
+
+
+
+
+
+
+
+
+
+.main-image-container a {
+    text-decoration: none;
+}
+
+.main-image-container {
+    width: 80%;
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main-image {
+    width: 100%;
+    height: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+    width: 80%;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.grid-item img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.image-links {
+    list-style-type: none;
+    padding: 0;
+    margin: -1100px -850px 0 700px;
+}
+
+.image-links li {
+    position: relative;
+    margin-bottom: 20px; /* Espacio entre los elementos de la lista */
+}
+
+.image-links li::before {
+    content: "→ ";
+    color: #ffa500;
+    font-weight: bold;
+    position: absolute;
+    left: -20px; /* Ajuste para posicionar la flecha antes del enlace */
+}
+
+.image-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.image-links a:hover {
+    color: #ffa500;
+}
